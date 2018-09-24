@@ -3,4 +3,4 @@
 	echo "<br>";
 ?>
 
-<a href="formawal.php">Kembali ke halaman awal</a>
+<a href="formawal.html">Kembali ke halaman awal</a>
