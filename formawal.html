@@ -4,7 +4,14 @@
 	<title></title>
 </head>
 <body>
-silakan isi disini
+	<form action="proses.php" method="post" enctype="multipart/form-data">
+		Foto : <input type="file" name="gambar" value="gambar"><br>
+		Hobi : <br>
+		<input type="checkbox" name="Hobi[]" value="Membaca">Membaca<br>
+		<input type="checkbox" name="Hobi[]" value="Menulis">Menulis<br>
+		<input type="checkbox" name="Hobi[]" value="Menggambar">Menggambar<br><br>	
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="submit" name="submit" value="SUBMIT">
+	</form>
 
 </body>
 </html>
